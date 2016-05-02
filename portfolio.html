@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img class="img-responsive pic" src="img/cch2.jpg" alt="Carlos Chitty's picture">
+		</div>
+		<div class="col-md-6 text-right text-uppercase">
+			<h1 class="text-thin big-title">Carlos Chitty</h1>
+			<h3>Full Stack Developer</h3>
+		</div>
+	</div>
+	<div class="row">
+		<hr>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<img class="img-responsive" src="img/code.jpg" alt="Computer code">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 muted">
+			<h2>Featured Work</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 text-center">
+			<img data-toggle="modal" data-target="#trailersModal" class="img-responsive" src="img/trailers.png" alt="Trailer's project screenshot">
+			<h4 class="text-uppercase">Movie Trailers</h4>
+			https://github.com/chitty/movie_trailers
+		</div>
+		<div class="col-md-4 text-center">
+			<img data-toggle="modal" data-target="#tournamentModal" class="img-responsive" src="img/tournament.png" alt="Swiss Tournament's project screenshot">
+			<h4 class="text-uppercase">Tournament</h4>
+			https://github.com/chitty/fullstack-nanodegree-vm/tree/master/vagrant/tournament
+		</div>
+		<div class="col-md-4 text-center">
+			<img data-toggle="modal" data-target="#barsModal" class="img-responsive" src="img/bars.png" alt="Bars' project screenshot">
+			<h4 class="text-uppercase">Bars</h4>
+			https://github.com/chitty/bars/
+		</div>		
+	</div>
+	<div class="row">
+	</div>
+</div>
+
+<!-- Trailer Modal -->
+<div class="modal fade" id="trailersModal" tabindex="-1" role="dialog" aria-labelledby="trailersModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-uppercase text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="trailersModalLabel">Movie Trailers Project</h4>
+        <img class="img-responsive" src="img/trailers.png" alt="Trailer's project screenshot">
+      </div>
+      <div class="modal-body">
+        This project was developed for the course Programming Foundations with Python.
+
+		It creates a website with my favorite movies. The website shows the rating for each movie according to IMDb, and the user can watch the trailer for each movie.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tournament Modal -->
+<div class="modal fade" id="tournamentModal" tabindex="-1" role="dialog" aria-labelledby="tournamentModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-uppercase text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="tournamentModalLabel">Swiss Tournament Project</h4>
+        <img class="img-responsive" src="img/tournament.png" alt="Tournament's project screenshot">
+      </div>
+      <div class="modal-body">
+        This project was developed for the course Intro to Relational Databases.
+
+		It is the implementation of a Swiss-system tournament. This tournament system is used in a variety of games and sports like Ultimate Frisbee.
+
+		This implementantion supports games where a draw (tied game) is possible. It also supports more than one tournament in the database.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bars Modal -->
+<div class="modal fade" id="barsModal" tabindex="-1" role="dialog" aria-labelledby="barsModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-uppercase text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="barsModalLabel">Bar's Catalog Project</h4>
+        <img class="img-responsive" src="img/bars.png" alt="Bar's Catalog project screenshot">
+      </div>
+      <div class="modal-body">
+        This project was developed using Python and the framework Flask. It allows users view available bars and the drinks available at each bar. The users can Sign In to add new bars or drinks, and they can later edit or delete the bars or drinks they have added.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html> 
