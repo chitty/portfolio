@@ -1,18 +1,17 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	color: #747704;
 	font-weight: 300;
 }
 
 .pic {
 	margin-top: 20px;
-	border-radius: 50%;
     width: 128px;
     height: 128px;
 }
 
 .muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .text-thin {
@@ -21,4 +20,8 @@ body {
 
 .big-title {
 	font-size: 64px;
+}
+
+.portfolio-item {
+	cursor: pointer;
 }
